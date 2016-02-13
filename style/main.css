@@ -36,3 +36,128 @@
     padding-left: 41px;
     padding-top: 13px;
 }
+
+.search_box{
+    width: 430px;
+    padding-top: 23px;
+    padding-left: 185px;
+}
+.search_text{
+    width: 350px;
+    height: 35px;
+    line-height: 35px\9;/*\9代表所有IE 浏览器*/
+    padding: 0px 5px;
+    background-color: white;
+
+}
+.search_btn{
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft Sans Serif";
+    background-color: #FF8C00;
+    color: #fff;
+}
+
+.shopCar{
+    width: 145px;
+    height: 35px;
+    background-color: #FF8C00;
+    margin-top: 23px;
+    font-size: 14px;
+    font-family: "Microsoft Sans Serif";
+    line-height: 35px;
+    /*font:14px/35 "Microsoft Sans Serif";*/
+    color: white;
+    margin-right: 59px;
+}
+.shopText{
+    width: 87px;
+    height: 100%;
+    border-right: #E27A00 solid 1px;
+    background: url("../images/icon/shopCar.png") 10px center no-repeat;
+    text-indent: 40px;
+}
+.shopNum{
+    width: 27px;
+    height: 35px;
+    border-left: #FF9C01 solid 1px;
+    background: url("../images/icon/arrow.png") 33px center no-repeat;
+    text-align: right;
+    padding-right: 29px;
+
+}
+
+.navBox{
+    height: 35px;
+    background-color: #1369C0;
+    color: white;
+    font-family: "Microsoft Sans Serif";
+}
+.shopClass{
+    width:190px;
+    position: relative;
+}
+.shopClass h3{
+    text-align: center;
+    line-height: 35px;
+}
+.shopClass i{
+    width: 11px;
+    height: 7px;
+    overflow: hidden;
+    background: url("../images/icon/down.png") left center no-repeat;
+    display: inline-block;
+    margin-left: 11px;
+}
+.nav, .shopClass{
+    font-family: "Microsoft Sans Serif";
+}
+.nav{
+    line-height: 35px;
+}
+.nav li{
+    float: left;
+}
+.nav a{
+    height: 35px;
+    display: inline-block;
+    padding: 0px 35px;
+    color: white;
+}
+.nav .active{
+    background-color: #4593FD;
+}
+.shopClass_show{
+    background-color: #4593FD;
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    width: 100%;
+}
+.shopClass_item{
+    padding: 14px 10px;
+    border-bottom: #3487f2 solid 1px;
+    border-top: #5AA1FE solid 1px;
+}
+.shopClass_item dt{
+    height: 22px;
+    background: url("../images/icon/arrow_left.png") right center no-repeat;
+}
+.shopClass_item .b{
+    font-family: "Microsoft Sans Serif";
+    font-size: 14px;
+    font-weight:bold;
+}
+.shopClass_item a{
+    color: white;
+}
+.shopClass_item .aLink{
+    width: 48px;
+    height: 20px;
+    background: url("../images/icon/aLink_bg.png") left center no-repeat;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: underline;
+}
