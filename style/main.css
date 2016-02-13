@@ -54,7 +54,7 @@
     width: 70px;
     height: 35px;
     font-size: 14px;
-    font-family: "Microsoft Sans Serif";
+    font-family: "微软雅黑";
     background-color: #FF8C00;
     color: #fff;
 }
@@ -65,7 +65,7 @@
     background-color: #FF8C00;
     margin-top: 23px;
     font-size: 14px;
-    font-family: "Microsoft Sans Serif";
+    font-family: "微软雅黑";
     line-height: 35px;
     /*font:14px/35 "Microsoft Sans Serif";*/
     color: white;
@@ -92,7 +92,7 @@
     height: 35px;
     background-color: #1369C0;
     color: white;
-    font-family: "Microsoft Sans Serif";
+    font-family: "微软雅黑";
 }
 .shopClass{
     width:190px;
@@ -111,7 +111,7 @@
     margin-left: 11px;
 }
 .nav, .shopClass{
-    font-family: "Microsoft Sans Serif";
+    font-family: "微软雅黑";
 }
 .nav{
     line-height: 35px;
@@ -145,7 +145,7 @@
     background: url("../images/icon/arrow_left.png") right center no-repeat;
 }
 .shopClass_item .b{
-    font-family: "Microsoft Sans Serif";
+    font-family: "微软雅黑";
     font-size: 14px;
     font-weight:bold;
 }
@@ -162,16 +162,19 @@
     text-decoration: underline;
 }
 /*banner*/
+.banner{
+    margin-bottom: 15px;
+}
 .banner_bar{
-    width: 810px;
-    height: 350px;
+    /*width: 810px;*/
+    /*height: 350px;*/
     float: right;
     position: relative;
     overflow: hidden;
 }
 .imgBox{
-    width: 1620px;
-    height: 350px;
+    /*width: 1620px;*/
+    /*height: 350px;*/
     position: absolute;
     left: 0;
     top: 0;
@@ -180,8 +183,8 @@
     float: left;
 }
 .imgBox img{
-    width: 810px;
-    height: 350px;
+    /*width: 810px;*/
+    /*height: 350px;*/
     display: block;
 }
 .imgNum{
@@ -202,4 +205,54 @@
 .imgNum .active{
     background-color: #FF7700;
 
+}
+.banner_big, .banner_big img{
+    width: 810px;
+    height: 326px;
+}
+.banner_big .imgBox{
+    width: 1620px;
+    height: 326px;
+}
+.banner_sm, .banner_sm img{
+    width: 190px;
+    height: 400px;
+}
+.banner_sm .imgBox{
+    width: 380px;
+    height: 400px;
+}
+/*商品标题*/
+.shopTit{
+    height: 44px;
+    font-family: "微软雅黑";
+    line-height: 44px;
+    margin-bottom: 15px;
+}
+.shopTit h3{
+    font-size: 24px;
+    float: left;
+    font-weight: normal;
+    padding-left: 15px;
+}
+.icon{
+    width: 44px;
+    height: 44px;
+    background: url("../images/icon/shopTitl.png") left top no-repeat;
+    float: left;
+}
+.more{
+    float: right;
+    font-family: "宋体";
+}
+.more:hover{
+    text-decoration: underline;
+}
+
+/*商品列表*/
+.shopList .leftArea{
+    width:190px;
+}
+.shopList .rightArea{
+    width: 810px;
 }
