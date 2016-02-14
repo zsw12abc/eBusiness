@@ -407,104 +407,342 @@
 .web img {
     margin: 0px 12px;
 }
-.hr_25{
-    height:25px;
+
+.hr_25 {
+    height: 25px;
 }
-.hr_7{
+
+.hr_7 {
     height: 7px;
     overflow: hidden;
 }
-.hr_15{
+
+.hr_15 {
     height: 15px;
     overflow: hidden;
 }
 
 /*产品分类*/
-.products .leftArea{
+.products .leftArea {
     width: 185px;
 }
-.products .rightArea{
+
+.products .rightArea {
     width: 810px;
 }
-.products .banner_bar{
+
+.products .banner_bar {
     float: none;
 }
-.products .item{
+
+.products .item {
     width: 25%;
     margin-bottom: 10px;
 }
+
 /*产品分类导航*/
-.leftNav{
+.leftNav {
     background-color: #F3F3F3;
-    border:#D7D7D7 solid 1px;
+    border: #D7D7D7 solid 1px;
 }
-.nav_title{
+
+.nav_title {
     height: 34px;
     line-height: 34px;
     font-size: 14px;
     border-bottom: #D7D7D7 solid 1px;
     text-align: center;
 }
-.nav_cont{
+
+.nav_cont {
     padding: 0 18px 4px;
     border-bottom: #D7D7D7 1px dotted;
     margin-bottom: -1px;
 }
-.nav_cont h3{
+
+.nav_cont h3 {
     font-size: 12px;
     line-height: 30px;
 }
-.navCont_list{
+
+.navCont_list {
     line-height: 25px;
 }
-.navCont_list li{
+
+.navCont_list li {
     float: left;
     width: 50%;
 }
-.products_title{
+
+.vertical li {
+    width: auto;
+    float: none;
+    padding-left: 8px;
+}
+
+.vertical .nav_title, .vertical .nav_cont h3 {
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+.products_title {
     height: 34px;
     border-bottom: #CCCCCC solid 2px;
 }
-.products_title h3{
+
+.products_title h3 {
     width: 180px;
     border-bottom: #096DBA solid 2px;
     height: 34px;
     line-height: 34px;
     text-indent: 9px;
 }
+
 /*商品*/
-.item{
+.item {
     float: left;
 }
-.item_cont{
+
+.item_cont {
     padding: 0 15px;
 }
-.img_item{
+
+.img_item {
     height: 170px;
     text-align: center;;
 }
-.img_item img{
+
+.img_item img {
     height: 170px;
 }
-.item p{
+
+.item p {
     line-height: 20px;;
 }
-.item a{
+
+.item a {
     color: #000;
 }
-.item a:hover{
+
+.item a:hover {
     text-decoration: underline;
 }
-.money{
+
+.money {
     color: #D4105A;
     font-weight: bold;
     padding-top: 10px;
 }
-.star{
+
+.star {
     width: 13px;
     height: 12px;
     overflow: hidden;
     background: url("../images/icon/star.png") left top no-repeat;
     display: inline-block;
     margin-right: 1px;
+}
+
+/*筛选*/
+.screening_box {
+    border-bottom: #CCCCCC solid 1px;
+}
+
+.screening_box dt {
+    line-height: 32px;
+    width: 74px;
+    text-align: right;
+    float: left;
+    margin-right: 42px;
+}
+
+.limit {
+    width: 55px;
+    float: left;
+    line-height: 32px;
+}
+
+.screening_box .active {
+    background-color: #1D7AD9;
+    color: white;
+}
+
+.screening_box a {
+    padding: 2px;
+}
+
+.screening_list {
+    line-height: 32px;
+    width: 626px;
+    float: left;
+}
+
+.screening_list li {
+    width: 20%;
+    float: left;
+}
+
+.screen_more {
+    border: #CCCCCC solid 1px;
+    height: 23px;
+    line-height: 23px;
+    margin-top: 4px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 11px;
+    margin-right: 10px;
+}
+
+.screen_more a {
+    background: url("../images/icon/fliterDown.png") right center no-repeat;
+    padding-right: 10px;
+}
+
+.addInfo {
+    height: 31px;
+    border: #CCCCCC solid 1px;
+    background-color: #F5F5F5;
+}
+
+.address {
+    float: left;
+}
+
+.add_text {
+    float: left;
+    line-height: 31px;
+    padding-left: 12px;
+    padding-right: 6px;
+}
+
+.addInfo .select {
+    margin-top: 4px;
+}
+
+.screen_text {
+    line-height: 31px;
+    padding-right: 80px;
+}
+
+.check {
+    position: relative;
+    top: -1px;
+}
+
+.check input, .check label {
+    vertical-align: middle;
+}
+
+.shop_number em {
+    color: #f00;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.screen_text span {
+    vertical-align: middle;
+}
+
+.addCar {
+    border: #1D7AD9 solid 1px;
+    height: 22px;
+    display: inline-block;
+    padding: 0 6px 0 23px;
+    background: url("../images/icon/addCar.png") 6px center no-repeat;
+}
+
+.screening_list_more .item {
+    width: 33.33%;
+}
+
+/*page*/
+.page {
+    text-align: center;
+}
+
+.page a {
+    height: 24px;
+    display: inline-block;
+    line-height: 24px;
+    border: #CCCCCC solid 1px;
+    padding: 0 12px;
+    margin: 0 2px;
+}
+
+.page .hl {
+    display: inline-block;
+    padding: 0 12px;
+    margin: 0 2px;
+}
+
+.morePage {
+    padding-left: 14px;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+}
+
+.pageNum {
+    width: 29px;
+    padding: 0 3px;
+    border: #CCCCCC solid 1px;
+    height: 24px;
+    line-height: 24px \9;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.page_btn {
+    width: 44px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #E8E8E8;
+    border: #CCCCCC solid 1px;
+}
+
+.ye {
+    padding: 0 8px 0 6px;
+}
+
+/*组件*/
+.select {
+    border: #999 solid 1px;
+    line-height: 22px;
+    font-size: 22px;
+    float: left;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    position: relative;
+    z-index: 4;
+}
+
+.select h3 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.select span {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    background: url("../images/icon/fliterDown.png") center center no-repeat;
+}
+
+.show_select {
+    position: absolute;
+    left: -1px;
+    top: 22px;
+    background-color: white;
+    width: 100%;
+    border: #999 solid 1px;
+    display: none;
+
+}
+
+.show_select li {
+    padding-left: 10px;
+    font-size: 12px;
 }
