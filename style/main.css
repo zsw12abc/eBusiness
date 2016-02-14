@@ -544,7 +544,8 @@
     display: inline-block;
     margin-right: 1px;
 }
-.hot{
+
+.hot {
     width: 52px;
     height: 52px;
     background: url("../images/icon/hot.png") left top no-repeat;
@@ -763,56 +764,217 @@
 }
 
 /*商品介绍*/
-.grey{
+.grey {
     background-color: #F0F0F0;
 }
-.userPosition{
+
+.userPosition {
     font-size: 12px;
     font-family: Verdana;
     margin-top: 25px;
     margin-bottom: 15px;
 }
-.userPosition em, .userPosition strong, .userPosition a, .userPosition span{
+
+.userPosition em, .userPosition strong, .userPosition a, .userPosition span {
     font-size: 12px;
 }
-.userPosition em{
+
+.userPosition em {
     font-style: normal;
 }
-.userPosition a:hover{
+
+.userPosition a:hover {
     text-decoration: underline;
 }
-.description_info{
+
+.description_info {
     background-color: white;
 }
-.description{
-    border:#CCCCCC solid 1px;
+
+.description {
+    border: #CCCCCC solid 1px;
 }
-.description .leftArea{
+
+.description .leftArea {
     width: 309px;
 }
-.description .rightArea{
+
+.description .rightArea {
     width: 688px;
     border-left: #CCCCCC solid 1px;
 }
+
 /*图片展示*/
-.description_imgs .big{
+.description_imgs .big {
     height: 340px;
     text-align: center;
     padding-top: 25px;
 }
-.des_smimg{
+
+.des_smimg {
     padding-left: 1px;
     width: 265px;
     margin: 0 auto;
 }
-.des_smimg li{
+
+.des_smimg li {
     float: left;
     margin-left: -1px;
 }
-.des_smimg img{
+
+.des_smimg img {
     border: #CCCCCC solid 1px;
 }
-.des_smimg .active{
+
+.des_smimg .active {
     border: #317EE7 solid 1px;
     position: relative;
+}
+
+.des_content {
+    padding: 10px;
+}
+
+.des_content_title {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    padding: 13px 25px;
+}
+
+.des_content .dl {
+    margin-bottom: 8px;
+}
+
+.des_content .dt {
+    width: 75px;
+    float: left;
+    color: #666;
+    text-indent: 17px;
+    line-height: 25px;
+}
+
+.des_content .dd {
+    padding-left: 75px;
+}
+
+.des_money {
+    font-size: 18px;
+    color: red;
+}
+
+.des_money em {
+    font-style: normal;
+    font-size: 12px;
+}
+
+.hg {
+    padding-top: 4px;
+    display: inline-block;
+}
+
+.hg_icon {
+    width: 55px;
+    height: 18px;
+    display: inline-block;
+    background: url("../images/icon/yelArrow.png") left top no-repeat;
+    color: white;
+    font-style: normal;
+    text-indent: 16px;
+    line-height: 18px;
+    margin-right: 10px;
+}
+
+/*送货*/
+.des_position {
+    background-color: #F2F2F2;
+    padding: 15px 0;
+}
+
+.goods {
+    line-height: 24px;
+    padding-left: 10px;
+}
+
+.des_content .colorSelect {
+    line-height: 30px;
+}
+
+.des_item {
+    color: #666;
+    padding: 9px 20px;
+    border: #CCCCCC solid 1px;
+    float: left;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.des_item_active {
+    border: #317EE7 solid 1px;
+    color: black;
+}
+
+.des_item_sm {
+    padding: 3px 7px;
+    margin-bottom: 8px;
+}
+
+.des_content .des_select_more {
+    line-height: 55px;
+}
+
+/*商品数量*/
+.des_number {
+    border: #B2B2B2 solid 1px;
+    height: 32px;
+    width: 82px;
+    float: left;
+}
+
+.des_number div {
+    height: 100%;
+    float: left;
+}
+
+.reduction, .plus {
+    width: 15px;
+    background-color: #CCCCCC;
+    line-height: 32px;
+    text-align: center;
+    color: darkslategray;
+}
+
+.reduction {
+    border-right: #CCCCCC solid 1px;
+}
+
+.plus {
+    border-left: #CCCCCC solid 1px;
+}
+
+.des_input {
+    width: 50px;
+}
+
+.des_input input {
+    width: 100%;
+    height: 100%;
+    line-height: 32px \9;
+    background-color: white;
+    text-align: center;
+}
+.xg{
+    line-height: 32px;
+    float: left;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #656565;
+}
+.xg em{
+    color: #FB7700;
+    font-style: normal;
+}
+.des_content .des_num{
+    line-height: 32px;
 }
