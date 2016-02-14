@@ -658,6 +658,7 @@
 /*page*/
 .page {
     text-align: center;
+    height: 26px;
 }
 
 .page a {
@@ -702,6 +703,10 @@
 
 .ye {
     padding: 0 8px 0 6px;
+}
+
+.page a, .page span {
+    vertical-align: middle;
 }
 
 /*组件*/
