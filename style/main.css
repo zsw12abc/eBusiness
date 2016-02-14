@@ -501,6 +501,8 @@
 /*商品*/
 .item {
     float: left;
+    position: relative;
+    height: 265px;
 }
 
 .item_cont {
@@ -541,6 +543,14 @@
     background: url("../images/icon/star.png") left top no-repeat;
     display: inline-block;
     margin-right: 1px;
+}
+.hot{
+    width: 52px;
+    height: 52px;
+    background: url("../images/icon/hot.png") left top no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 0px;;
 }
 
 /*筛选*/
