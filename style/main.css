@@ -32,7 +32,7 @@
 /*logoBar*/
 .logoBar {
     height: 85px;
-    background-color: #1D7AD9;
+    background-color: #1d7ad9;
 }
 
 .logo {
@@ -1298,4 +1298,30 @@
 }
 .review_cont p{
     line-height: 30px;
+}
+/*购物车*/
+.stepBox{
+    width:480px;
+    padding-right: 20px;
+    padding-top: 10px;
+    /*padding-top: -26px;*/
+}
+.shoppingCart{
+    padding-top: 10px;
+}
+.shopping_item{
+    border:#CCCCCC solid 1px;
+
+}
+.shopping_tit{
+    background-color: #f1f1f1;
+    height: 31px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    line-height: 31px;
+    color: #444444;
+    text-indent: 12px;
+}
+.padding_shop{
+    padding: 25px 30px;
 }
